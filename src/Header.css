@@ -1,0 +1,86 @@
+.header{
+    position: static;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color:black;
+    margin-top: -10px;
+    margin-left: -10px;
+    overflow: hidden;
+
+
+    
+
+    
+  
+}
+.logolayer{
+    display: flex;
+    width: 200px;
+    overflow: hidden;
+    align-items: center;
+    overflow: hidden;
+
+  
+   
+}
+.logo-img{
+    height: 130px;
+    margin-left: 20px;
+
+
+
+}
+
+.options{
+  
+    display: flex;
+    flex-direction: row;
+    width :600px;
+    margin-left: 600px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+   color: black;;
+    align-items: center;
+    gap:60px;
+    
+
+   
+
+}
+.nav{
+    color:grey;
+    cursor:pointer;
+   
+}
+
+.nav:hover{
+    color:aqua;
+}
+
+
+@keyframes fade-down{
+    0%{
+       opacity:0;
+        transform: transalteY(-30px) scale(0.6);
+    }
+    100%{
+       opacity:1;
+        transform: transalteY(0px) scale(1);
+    }
+}    
+
+@keyframes fade-up{
+    0%{
+       opacity:0;
+         trasform: transalteY(30px) scale(0.6);
+    }
+    100%{
+       opacity:1;
+        transform: transalteY(0px) scale(1);
+    }
+}

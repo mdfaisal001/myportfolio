@@ -1,0 +1,50 @@
+.footer{
+    background: black;
+    height:200px ;
+    color:white;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    position: sticky;
+  
+   
+}
+.fsection1 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-left:80vh;
+}
+.fsection2 p{
+    font-family: 'Poppins', sans-serif;
+    opacity: 0.3;
+    letter-spacing: 1px;
+}
+.fsection1{
+    display: flex;
+    margin-top: 20px;
+  
+}
+.fsectioninfo{
+    margin-left: 100px;
+}
+.fsection2{
+    display: flex;
+     gap: 40px;
+    justify-content: center;
+    align-items: center;;
+}
+
+
+.footer-logos{
+    height: 80px;
+    display: flex;
+    width: 200px;
+     display: flex;
+     flex-direction: row;;
+     align-items: center;
+     justify-content:space-evenly;
+     margin-left: -20px;
+    
+
+ }
+
